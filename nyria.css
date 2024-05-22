@@ -1,177 +1,61 @@
-#nyriabase {
-  width: 550px;
-  height: 550px;
-  position: absolute;
-  overflow: hidden;
-  background-color: transparent;
-  cursor: grab;
-}
+#nyriabase {width: 550px; height: 550px; position:absolute; overflow:hidden; background-color: transparent; cursor: grab;}
 
-#nr-cont {
-  width: 500px;
-  height: 500px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  overflow: hidden;
-}
+#nr-cont { width: 500px; height: 500px;position: absolute;overflow: hidden;top: 50%;left: 50%;transform: translate(-50%, -50%)}
 
-#nr-texture,
-#nr-texture2 {
-  width: 500px;
-  height: 500px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-size: cover;
-  z-index: 1;
-}
+#nr-texture {width: 500px; height: 500px;position: absolute;top: 0px;left: 0px;width: 100%;height: 100%;background: url('https://i.imgur.com/G0TrwiC.png');background-size: cover;z-index: 1;mix-blend-mode: soft-light;}
 
-#nr-texture {
-  background: url('https://i.imgur.com/G0TrwiC.png');
-  mix-blend-mode: soft-light;
-}
+#nr-texture2 {width: 500px; height: 500px;position: absolute;top: 0px;left: 0px;width: 100%;height: 100%;background: url('https://i.imgur.com/3ImBJAT.png');background-size: cover;z-index: 1;mix-blend-mode: exclusion;}
 
-#nr-texture2 {
-  background: url('https://i.imgur.com/3ImBJAT.png');
-  mix-blend-mode: exclusion;
-}
 
-#nr-img,
-#nr-img1 {
-  width: 500px;
-  height: 500px;
-  position: absolute;
-  overflow: hidden;
-}
+#nr-img { width: 500px; height: 500px;position: absolute;overflow: hidden;}
 
-#nr-cont2 {
-  width: 550px;
-  height: 550px;
-  position: absolute;
-  overflow: hidden;
-}
+#nr-img1 { width: 500px; height: 500px;position: absolute;overflow: hidden;}
 
-#nr-caja,
-#nr-caja2 {
-  width: 200px;
-  height: 50px;
-  background: linear-gradient(to bottom, white 50%, #2d2d2d 50%);
-  position: absolute;
-  top: 18px;
-  left: 18px;
-  border: 1px solid #2d2d2d;
-  outline: 10px solid white;
-  overflow: hidden;
-}
 
-#nr-caja2 {
-  background: linear-gradient(to bottom, #2d2d2d 50%, white 50%);
-}
+#nr-cont2 {width: 550px; height: 550px; position:absolute; overflow:hidden;}
 
-#nr-cont3 {
-  width: 550px;
-  height: 550px;
-  position: absolute;
-  overflow: hidden;
-  top: 460px;
-  left: 315px;
-}
+#nr-caja {width: 200px;height: 50px;background: linear-gradient(to bottom, white 50%, #2d2d2d 50%); position: absolute;overflow:hidden; top: 18px;left: 18px;border: 1px solid #2d2d2d; outline: 10px solid white;}
 
-#nr-cont4 {
-  width: 100%;
-  height: auto;
-  position: absolute;
-  left: 0;
-  top: 0;
-  writing-mode: vertical-rl;
-}
+#nr-ctext {font: 15px "Bebas Neue", sans-serif; padding: 5px;color: #000;display: flex;justify-content: flex-end;}
 
-#nr-info,
-#nr-credit {
-  width: 100%;
-  height: auto;
-  position: absolute;
-  left: 0;
-  top: 0;
-}
+#nr-ctext2 {font: 15px "Bebas Neue", sans-serif; padding: 3px;color: #fff;display: flex;justify-content: flex-start;}
 
-#nr-text,
-#nr-ctext,
-#nr-ctext2,
-#nr-ctext1,
-#nr-ctext3,
-#nr-partner,
-#nr-lugar,
-#nr-hora,
-#nr-c {
-  font: 15px "Bebas Neue", sans-serif;
-  padding: 5px;
-  color: #000;
-  display: flex;
-}
 
-#nr-ctext2,
-#nr-lugar,
-#nr-hora,
-#nr-credit {
-  color: #fff;
-}
+#nr-cont3 {width: 550px; height: 550px; position:absolute; overflow:hidden; top:460px; left: 315px;}
 
-#nr-cont5 {
-  width: 550px;
-  height: 550px;
-  position: absolute;
-  overflow: hidden;
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: nowrap;
-}
+#nr-caja2 {width: 200px;height: 50px;background: linear-gradient(to bottom, #2d2d2d 50%, white 50%); position: absolute;overflow:hidden; top: 18px;left: 18px;border: 1px solid #2d2d2d; outline: 10px solid white;}
 
-#nyria-text {
-  width: 300px;
-  height: 300px;
-  left: 0;
-  top: 150px;
-  overflow: auto;
-  z-index: 1;
-  padding: 20px;
-  box-sizing: border-box;
-  position: relative;
-  display: flex;
-}
+#nr-ctext1 {font: 15px "Bebas Neue", sans-serif; padding: 5px;color: #fff;display: flex;justify-content: flex-end;}
 
-#nr-text {
-  font-family: "arial", serif;
-  font-size: 9px;
-  color: #fff;
-  text-align: justify;
-  line-height: initial;
-  margin: -10px 10px 10px -10px;
-  position: absolute;
-  padding: 10px;
-  overflow: auto;
-  z-index: 1;
-  opacity: 0;
-  transition: opacity 0.5s ease;
-  background: #2d2d2d;
-  border: 1px black;
-  outline: 10px solid white;
-  height: 248px;
-}
+#nr-ctext3 {font: 15px "Bebas Neue", sans-serif; padding: 3px;color: #000;display: flex;justify-content: flex-start;}
 
-#nr-cont5:hover #nr-text {
-  opacity: 1;
-}
 
-#nr-c a {
-  color: #000;
-  text-decoration: none;
-  font-weight: bold;
-}
+#nr-cont4 {width: 100%; height: auto; position:absolute;left:0px;top:0px;writing-mode: vertical-rl;}
 
-/* Ocultar la barra de desplazamiento en navegadores webkit */
+#nr-info {width: 100%; height: auto; position:absolute;left:0px;top:0px;}
+
+#nr-partner {font: 15px "Bebas Neue", sans-serif; padding: 5px;color: #000;display: flex;justify-content: flex-end;}
+
+#nr-lugar {font: 15px "Bebas Neue", sans-serif; padding: 5px;color: #000;top: 70px;left: -2px;height: 100px; position: absolute;}
+
+#nr-hora {font: 15px "Bebas Neue", sans-serif; padding: 5px;color: #000;top: 445px;left: -2px;height: 100px; position: absolute;}
+
+
+#nr-cont5 {width: 550px; height: 550px; position:absolute; overflow:hidden;display: flex;justify-content: space-around;flex-wrap: nowrap;}
+
+#nyria-text {width: 300px;height: 300px;left: 0;top: 150px;overflow: auto;z-index: 1;padding: 20px;box-sizing: border-box;position: relative;display: flex;}
+
+#nr-text {font-family: "arial", serif;font-size: 9px;color: #fff;text-align: justify;line-height: initial;margin: -10px 10px 10px -10px; position: absolute;padding: 10px;overflow: auto;z-index: 1; opacity: 0;transition: opacity 0.5s ease;background: #2d2d2d;border: 1px black;outline: 10px solid white;height: 248px;}
+
+#nr-cont5:hover #nr-text {opacity: 1; }
+
+
+#nr-credit {width: 100%; height: auto; position:absolute;left:0px;top:380px;writing-mode: vertical-rl; z-index: 1;}
+
+#nr-c {font: 15px "Bebas Neue", sans-serif; padding: 5px;color: #000;height: 100px; position: absolute;}
+
+#nr-c a {color: #000; text-decoration: none; font-weight: bold;}
+
 ::-webkit-scrollbar {
-  display: none;
+    display: none;
 }
