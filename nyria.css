@@ -1,3 +1,7 @@
+theme: nyria css
+title: code random
+description: eeh, sin echar tanto el ojo :3
+
 #nyriabase {width: 550px; height: 550px; position:relative; overflow:hidden; background-color: transparent; cursor: grab;}
 
 #nr-cont { width: 500px; height: 500px;position: absolute;overflow: hidden;top: 50%;left: 50%;transform: translate(-50%, -50%)}
