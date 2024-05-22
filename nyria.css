@@ -25,9 +25,9 @@
 
 #nr-caja2 {width: 200px;height: 50px;background: linear-gradient(to bottom, #2d2d2d 50%, white 50%); position: absolute;overflow:hidden; top: 18px;left: 18px;border: 1px solid #2d2d2d; outline: 10px solid white;}
 
-#nr-ctext1 {font: 15px "Bebas Neue", sans-serif; padding: 5px;color: #fff;display: flex;justify-content: flex-end;}
+#nr-ctext1 {font: 15px "Bebas Neue", sans-serif; padding: 5px;color: #fff;display: flex;justify-content: flex-star;}
 
-#nr-ctext3 {font: 15px "Bebas Neue", sans-serif; padding: 3px;color: #000;display: flex;justify-content: flex-start;}
+#nr-ctext3 {font: 15px "Bebas Neue", sans-serif; padding: 3px;color: #000;display: flex;justify-content: flex-end;}
 
 
 #nr-cont4 {width: 100%; height: auto; position:absolute;left:0px;top:0px;writing-mode: vertical-rl;}
@@ -36,7 +36,7 @@
 
 #nr-partner {font: 15px "Bebas Neue", sans-serif; padding: 5px;color: #000;display: flex;justify-content: flex-end;}
 
-#nr-lugar {font: 15px "Bebas Neue", sans-serif; padding: 5px;color: #000;top: 70px;left: -2px;height: 100px; position: absolute;}
+#nr-lugar {font: 15px "Bebas Neue", sans-serif; padding: 5px;color: #000;top: 70px;left: -2px;height: 150px; position: absolute;}
 
 #nr-hora {font: 15px "Bebas Neue", sans-serif; padding: 5px;color: #000;top: 445px;left: -2px;height: 100px; position: absolute;}
 
