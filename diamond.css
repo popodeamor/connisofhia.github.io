@@ -1,0 +1,20 @@
+.diamond-effect {
+    position: relative;
+    display: inline-block;
+}
+.diamond-effect:before {
+    content: '';
+    position: absolute;
+    top: -15px;
+    left: -15px;
+    width: 30px;
+    height: 30px;
+    background: linear-gradient(45deg, rgba(255,255,255,0.7) 0%, rgba(255,255,255,0.3) 50%, rgba(255,255,255,0) 100%);
+    border-radius: 50%;
+    animation: diamond-shine 2s linear infinite;
+}
+@keyframes diamond-shine {
+    0% { transform: scale(0.5); opacity: 0; }
+    50% { transform: scale(1); opacity: 1; }
+    100% { transform: scale(0.5); opacity: 0; }
+}
