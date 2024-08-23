@@ -1,0 +1,160 @@
+/* PESTAÑA PERFIL */
+.ps-lastvisit{margin: 20px; background: var(--fondo2); width: fit-content; padding: 17px; border: var(--borde2);}
+.perfils{width: 100%; background: rgba(255, 255, 255, 0.2); border-radius: 20px; display: flex; flex-wrap: nowrap; flex-direction: column;position: relative;height: 1580px;}
+.perfils-top{width: 100%; height: 40px; display: flex; align-items: center; background: linear-gradient(to right, white, lavender); font-family: Arial, sans-serif; padding: 5px 10px; position: relative; justify-content: flex-start; color: #333; font-weight: bold; text-transform: uppercase;}
+.perfils-top > div, .perfils-top > a{display: flex; align-items: center; color: #333;}
+.perfils-top > .ps-name{font-size: 12px; color: #4b0082; margin-right: auto;}
+.perfils-top > .wim-ofline{font-size: 11px; color: #918198; background-color: #e0d9e8; padding: 2px 6px; display: inline-flex; align-items: center; left: 550px; position: absolute;}
+.perfils-top > .wim-ofline::before{content: ' '; display: inline-block; width: 8px; height: 8px; background-color: white; margin-right: 4px;}
+.perfils-top > .wim-mp > a, .perfils-top > .profile-link{display: flex; align-items: center; justify-content: center; width: 30px; height: 30px; background: linear-gradient(to right, #f5eefc, #dcccec); border-radius: 50%; color: #fff; text-decoration: none; padding: 5px; right: 20px; position: relative; margin-right: 20px;}
+.perfils-top > .wim-mp > a:hover, .perfils-top > .profile-link:hover{background-color: #b0a8d5;}
+.perfils-top > .wim-mp > a > em, .perfils-top > .profile-link > em{font-size: 16px; color: #a998b0;}
+.fa-search::before {
+    content: "\f002"; /* Código Unicode para el icono de búsqueda en Font Awesome */
+}
+.fa-file::before {
+    content: "\f15b";
+}
+.fa-pencil-alt::before {
+    content: "\f303";
+}
+
+div#profile_field_17 img {
+    width: 1197px;
+    height: 150px;
+    object-fit: cover;
+}
+
+div#profile_field_1 img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+div#profile_field_22 img {
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+}
+
+div#profile_field_28 img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+div#profile_field_2 img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+div#profile_field_27 img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+div#profile_field_19 img {
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+}
+
+
+.ppfield {display: flex;justify-content: space-between;align-items: center;padding: 0 !important;width: auto !important;box-sizing: border-box; margin-bottom: 0 !important;}
+/* portada, icon */
+div#profile_field_17{position: relative; display: flex; justify-content: center; width: 100%;}
+div#profile_field_17::after{content:' '; position: absolute; bottom: 0; left: 0; width: 100%; height: 80px; background: #fff;width: 100%; height: 100px; background: #fff; top: 149px;}
+div#profile_field_1{border-radius: 10px; padding: 10px; position: absolute; top: 165px; left: 555px; display: flex;}
+/* info wons, mensajes, animo, prestigio */
+div#profile_field_3{position: absolute; top: 300px; left: 0; height: 15px; font-family: Arial, sans-serif; font-size: 9px; text-transform: uppercase; overflow: auto; outline: white solid 1px; border: 2px solid; border-image: linear-gradient(to right, lavender, white) 1; background: rgba(255, 255, 255, 0.5); font-weight: bold; color: #7a6e7f;}
+.wim-wons{position: absolute; width: 150px; height: 50px; background: rgba(255, 255, 255, 0.8); border: 2px solid; border-image: linear-gradient(to right, lavender, white) 1; outline: white solid 1px; display: flex; justify-content: center; align-items: center; text-align: center; top: 380px;}
+.wim-wons e{font-family:'San Francisco Text', sans-serif; font-size: 10px; text-transform: uppercase; color: #a998b0; display: flex; align-items: center; gap: 10px; font-weight: bold;}
+.wim-wons e i{font-size: 16px; color: #a998b0;}
+div#profile_field_-13{position: absolute; width: 150px; height: 50px; background: rgba(255, 255, 255, 0.8); border: 2px solid; border-image: linear-gradient(to right, lavender, white) 1; outline: white solid 1px; display: flex; justify-content: center; align-items: center; text-align: center; top: 325px; font-size: 30px; font-weight: bold; color: #7f7285;}
+div#profile_field_-13 e{font-family:'San Francisco Text', sans-serif; font-size: 10px; text-transform: uppercase; color: black; text-shadow: 1px 1px 2px grey;}
+.wim-temas{position: absolute; width: 150px; height: 50px; background: rgba(255, 255, 255, 0.8); border: 2px solid; border-image: linear-gradient(to left, lavender, white) 1; outline: white solid 1px; display: flex; justify-content: center; align-items: center; text-align: center; top: 380px; left: 158px;}
+.wim-temas e{font-family:'San Francisco Text', sans-serif; font-size: 10px; text-transform: uppercase; color: #a998b0; display: flex; align-items: center; gap: 10px; font-weight: bold;}
+.wim-temas e i{font-size: 16px;color: #a998b0;}
+div#profile_field_-6{position: absolute; width: 150px; height: 50px; background: rgba(255, 255, 255, 0.8); border: 2px solid; border-image: linear-gradient(to left, lavender, white) 1; outline: white solid 1px; display: flex; justify-content: center; align-items: center; text-align: center; top: 325px; font-size: 30px; font-weight: bold; color: #7f7285; left: 158px;}
+div#profile_field_-6 e{font-family:'San Francisco Text', sans-serif; font-size: 10px;text-transform: uppercase; color: black; text-shadow: 1px 1px 2px grey;}
+.wim-animo{position: absolute; width: 150px; height: 50px; background: rgba(255, 255, 255, 0.8); border: 2px solid; border-image: linear-gradient(to right, lavender, white) 1; outline: white solid 1px; display: flex; justify-content: center; align-items: center; text-align: center; top: 380px; left:316px;}
+.wim-animo e{font-family:'San Francisco Text', sans-serif; font-size: 10px; text-transform: uppercase; color: #a998b0; display: flex; align-items: center; gap: 10px; font-weight: bold;}
+.wim-animo e i{font-size: 16px;color: #a998b0;}
+div#profile_field_4{position: absolute; width: 150px; height: 50px; background: rgba(255, 255, 255, 0.8); border: 2px solid; border-image: linear-gradient(to right, lavender, white) 1; outline: white solid 1px; display: flex; justify-content: center; align-items: center; text-align: center; top: 325px; font-size: 30px; font-weight: bold; color: #7f7285; left: 316px;}
+ddiv#profile_field_4 e{font-family:'San Francisco Text', sans-serif; font-size: 10px;text-transform: uppercase; color: black; text-shadow: 1px 1px 2px grey;}
+div#profile_field_4 e i {font-size: 16px;color: #7f7285;}
+.wim-prestigio{position: absolute; width: 150px; height: 50px; background: rgba(255, 255, 255, 0.8); border: 2px solid; border-image: linear-gradient(to left, lavender, white) 1; outline: white solid 1px; display: flex; justify-content: center; align-items: center; text-align: center; top: 380px; left: 474px;}
+.wim-prestigio e{font-family:'San Francisco Text', sans-serif; font-size: 10px; text-transform: uppercase; color: #a998b0; display: flex; align-items: center; gap: 10px; font-weight: bold;}
+.wim-prestigio e i{font-size: 16px;color: #a998b0;}
+div#profile_field_5{position: absolute; width: 150px; height: 50px; background: rgba(255, 255, 255, 0.8); border: 2px solid; border-image: linear-gradient(to left, lavender, white) 1; outline: white solid 1px; display: flex; justify-content: center; align-items: center; text-align: center; top: 325px; font-size: 30px; font-weight: bold; color: #7f7285; left: 474px;}
+div#profile_field_5 e{font-family:'San Francisco Text', sans-serif; font-size: 10px;text-transform: uppercase; color: black; text-shadow: 1px 1px 2px grey;}
+div#profile_field_5 e i {font-size: 16px;color: #7f7285;}
+.perfilavatar{position: absolute; width: 300px; height: 500px; background: rgba(255, 255, 255, 0.8); border-left: 40px solid; border-image: linear-gradient(to top, lavender, white) 1; display: flex; justify-content: center; align-items: center; text-align: center; right: 180px; top: 321px; border-right: 40px solid;}
+.perfilavatar img{width: 300px; height: 500px; object-fit: cover;}
+div#profile_field_6{position: absolute; width: 606px; height: 15px; background: rgba(255, 255, 255, 0.8); border: 2px solid; border-image: linear-gradient(to left, lavender, white) 1; outline: white solid 1px; display: flex; justify-content: flex-start; top: 475px; left: 8px; font-family: Arial, sans-serif; font-size: 10px; font-weight: bold; text-transform: uppercase; color: #4a4a4a; padding: 5px; overflow: auto;}
+div#profile_field_7{position: absolute; width: 606px; height: 15px; background: rgba(255, 255, 255, 0.8); border: 2px solid; border-image: linear-gradient(to left, lavender, white) 1; outline: white solid 1px; display: flex; justify-content: flex-start; top: 510px; left: 8px; font-family: Arial, sans-serif; font-size: 10px; font-weight: bold; text-transform: uppercase; color: #4a4a4a; padding: 5px; overflow: auto;}
+div#profile_field_8{position: absolute; width: 606px; height: 15px; background: rgba(255, 255, 255, 0.8); border: 2px solid; border-image: linear-gradient(to left, lavender, white) 1; outline: white solid 1px; display: flex; justify-content: flex-start; top: 545px; left: 8px; font-family: Arial, sans-serif; font-size: 10px; font-weight: bold; text-transform: uppercase; color: #4a4a4a; padding: 5px; overflow: auto;}
+div#profile_field_9{position: absolute; width: 606px; height: 15px; background: rgba(255, 255, 255, 0.8); border: 2px solid; border-image: linear-gradient(to left, lavender, white) 1; outline: white solid 1px; display: flex; justify-content: flex-start; top: 580px; left: 8px; font-family: Arial, sans-serif; font-size: 10px; font-weight: bold; text-transform: uppercase; color: #4a4a4a; padding: 5px; overflow: auto;}
+div#profile_field_10{position: absolute; width: 606px; height: 15px; background: rgba(255, 255, 255, 0.8); border: 2px solid; border-image: linear-gradient(to left, lavender, white) 1; outline: white solid 1px; display: flex; justify-content: flex-start; top: 615px; left: 8px; font-family: Arial, sans-serif; font-size: 10px; font-weight: bold; text-transform: uppercase; color: #4a4a4a; padding: 5px; overflow: auto;}
+div#profile_field_11{position: absolute; width: 606px; height: 15px; background: rgba(255, 255, 255, 0.8); border: 2px solid; border-image: linear-gradient(to left, lavender, white) 1; outline: white solid 1px; display: flex; justify-content: flex-start;top: 650px; left: 8px; font-family: Arial, sans-serif; font-size: 10px; font-weight: bold; text-transform: uppercase; color: #4a4a4a; padding: 5px; overflow: auto;}
+div#profile_field_12{position: absolute; width: 606px; height: 15px; background: rgba(255, 255, 255, 0.8); border: 2px solid; border-image: linear-gradient(to left, lavender, white) 1; outline: white solid 1px; display: flex; justify-content: flex-start;top: 685px; left: 8px; font-family: Arial, sans-serif; font-size: 10px; font-weight: bold; text-transform: uppercase; color: #4a4a4a; padding: 5px; overflow: auto;}
+div#profile_field_13{position: absolute; width: 606px; height: 15px; background: rgba(255, 255, 255, 0.8); border: 2px solid; border-image: linear-gradient(to left, lavender, white) 1; outline: white solid 1px; display: flex; justify-content: flex-start;top: 720px; left: 8px; font-family: Arial, sans-serif; font-size: 10px; font-weight: bold; text-transform: uppercase; color: #4a4a4a; padding: 5px; overflow: auto;}
+div#profile_field_14{position: absolute; width: 606px; height: 15px; background: rgba(255, 255, 255, 0.8); border: 2px solid; border-image: linear-gradient(to left, lavender, white) 1; outline: white solid 1px; display: flex; justify-content: flex-start;top: 755px; left: 8px; font-family: Arial, sans-serif; font-size: 10px; font-weight: bold; text-transform: uppercase; color: #4a4a4a; padding: 5px; overflow: auto;}
+div#profile_field_-4{position: absolute; width: 606px; height: 15px; background: rgba(255, 255, 255, 0.8); border: 2px solid; border-image: linear-gradient(to left, lavender, white) 1; outline: white solid 1px; display: flex; justify-content: flex-start; top: 791px; left: 8px; font-family: Arial, sans-serif; font-size: 9px; font-weight: bold; text-transform: uppercase; color: #4a4a4a; padding: 5px; overflow: auto; letter-spacing: 5px;}
+.wim-invent{display: flex; flex-direction: column; align-items: center; margin: 5px; background: rgba(255, 255, 255, 0.7); border-radius: 10px; padding: 20px; width: 450px; height: 200px; position: absolute; bottom: 390px; overflow: auto;}
+.wim-invt2{font-family: 'San Francisco Text', sans-serif; font-size: 15px; text-transform: uppercase; font-weight: bold; margin-bottom: 10px; border-bottom: 1px solid #a998b0; width: 100%; text-align: center; padding-bottom: 5px; display: flex; align-items: center; justify-content: flex-start; color: #a998b0; letter-spacing: 2px;}
+.wim-invt2 i{margin-right: 5px; font-size: 12px;}
+#profile_field_15{display: flex; flex-wrap: wrap; align-items: flex-start; justify-content: flex-start; margin: 15px; padding: 10px 10px 10px 20px; width: 430px; height: 140px; position: absolute; bottom: 410px; overflow: auto;}
+#profile_field_15 img{width: 40px; height: 40px;}
+.wim-invent2{display: flex; flex-direction: column; align-items: center; margin: 5px; background: rgba(255, 255, 255, 0.7); border-radius: 10px; padding: 20px; width: 450px; height: 200px; position: absolute; bottom: 390px; overflow: auto; right: 0px;}
+.wim-invt3{font-family: 'San Francisco Text', sans-serif; font-size: 15px; text-transform: uppercase; font-weight: bold; margin-bottom: 10px; border-bottom: 1px solid #a998b0; width: 100%; text-align: center; padding-bottom: 5px; display: flex; align-items: center; justify-content: flex-start; color: #a998b0; letter-spacing: 2px;}
+.wim-invt3 i{margin-right: 5px; font-size: 12px;}
+#profile_field_16{display: flex; flex-wrap: wrap; align-items: flex-start; justify-content: flex-start; margin: 15px; padding: 10px 10px 10px 20px; width: 430px; height: 140px; position: absolute; bottom: 410px; overflow: auto; right: 10px;}
+#profile_field_16 img{width: 40px; height: 40px;}
+.wim-invent3{display: flex; flex-direction: column; align-items: center; margin: 5px; background: rgba(255, 255, 255, 0.7); border-radius: 10px; padding: 20px; width: 150px; position: absolute; bottom: 390px; overflow: auto; left: 499px; height: 200px;}
+.wim-invt4{font-family:'San Francisco Text', sans-serif; font-size: 15px; text-transform: uppercase; font-weight: bold; margin-bottom: 10px; border-bottom: 1px solid #a998b0; width: 100%; text-align: center; padding-bottom: 5px; display: flex; align-items: center; justify-content: flex-start; color: #a998b0; letter-spacing: 2px;}
+.wim-invt3 i{margin-right: 5px; font-size: 12px;}
+#profile_field_18{display: flex; flex-wrap: wrap; width: 173px; height: 180px; position: absolute; overflow: auto; bottom: 410px; left: 514px;}
+#profile_field_18 img{width: 35px; height: 35px; margin: 3px;}
+div#profile_field_20{display: flex; position: absolute; bottom: 0; margin: 10px;}
+div#profile_field_21{display: flex; position: absolute; bottom: 0; margin: 10px; left: 423px;}
+div#profile_field_22{display: flex; position: absolute; bottom: 13px; margin: 5px; left: 437px;}
+div#profile_field_19{display: flex; position: absolute; bottom: 13px; margin: 5px; left: 14px;}
+div#profile_field_23{display: flex; position: absolute; bottom: 0; right: 185px; margin: 10px;}
+div#profile_field_24{display: flex; position: absolute; bottom: 0; right: 185px; margin: 10px;}
+.wim-invent4{display: flex; flex-direction: column; align-items: center; margin: 5px; background: rgba(255, 255, 255, 0.7); border-radius: 10px; padding: 20px; width: 1145px; height: 80px; position: absolute; bottom: 255px; overflow: auto;}
+.wim-invt5{font-family:'San Francisco Text', sans-serif; font-size: 10px; text-transform: uppercase; font-weight: bold; margin-bottom: 10px; border-bottom: 1px solid #a998b0; width: 100%; text-align: center; padding-bottom: 5px; display: flex; align-items: center; justify-content: flex-start; color: #a998b0; letter-spacing: 2px;}
+.wim-invt4 i{margin-right: 5px; font-size: 12px;}
+#profile_field_25{display: flex; flex-wrap: wrap; align-items: flex-start; justify-content: flex-start; margin: 15px; padding: 5px; width: 1145px; height: 65px; position: absolute; bottom: 250px; overflow: auto;}
+#profile_field_25 img{width: 50px; height: 50px; margin: 3px;}
+.ps-lastvisit{font-family: Arial, sans-serif; font-size: 10px; color: #857f7f; text-transform: uppercase; text-decoration: none; display: flex; align-items: center; gap: 5px; border: 1px solid #c3b9cd; padding: 5px; border-radius: 5px; background: rgb(212 201 223 / 50%); font-weight: bold;}
+div#profile_field_26{display: flex; position: absolute; top: 150px; z-index: 1; left: 510px;}
+div#profile_field_-12{display: none;}
+div#profile_field_1 img{width: 100px; height: 100px; border-radius: 50%;}
+div#profile_field_28{z-index: 1; display: flex; position: absolute; top: 349px; right: 30px; border: 10px solid #f6f2fd61;
+    outline: 1px solid white;}
+div#profile_field_27{z-index: 1; display: flex; position: absolute; top: 511px; right: 30px; border: 10px solid #f6f2fd61;
+    outline: 1px solid white;}
+div#profile_field_2{z-index: 1; display: flex; position: absolute; top: 675px; right: 30px; border: 10px solid #f6f2fd61;
+    outline: 1px solid white;}
+/* Estilo base para todos los campos de contacto */
+dl#field_id{display: none;}
+.wim-field{display: flex; align-items: flex-end; justify-content: flex-end; padding: 3px; border: 2px solid rgb(232 232 251 / 46%); border-bottom-left-radius: 20px; background-color: rgba(255, 255, 255, 0.2); backdrop-filter: blur(10px); width: 150px; transition: transform 0.3s ease, box-shadow 0.3s ease; position: relative; bottom: 763px; border-bottom-right-radius: 20px; flex-wrap: nowrap; flex-direction: row-reverse; margin: 5px;}
+dl.details dd{margin-left: 20px;}
+#field_id-10:hover, #field_id-21:hover, #field_id-22:hover, #field_id-23:hover, #field_id29:hover,#field_id30:hover, #field_id31:hover{transform: translateY(5px); box-shadow: 0 4px 8px rgba(204, 198, 230, 0.5);}
+#field_id-10 .fa-id-card, #field_id-21 .fa-archive, #field_id-22 .fa-map-marker-alt, #field_id-23 .fa-images, #field_id29 .fa-mobile-alt, #field_id30 .fa-camera-retro, #field_id31 .fa-user-secret{font-size: 12px; color: #918198;}
+#field_id-10 .field-title, #field_id-21 .field-title, #field_id-22 .field-title, #field_id-23 .field-title, #field_id29 .field-title, #field_id30 .field-title, #field_id31 .field-title{font-family: Arial, sans-serif; font-size: 8px; color: #918198; font-weight: bold; text-transform: uppercase; letter-spacing: 4px; margin: 0 auto; flex-grow: 1; text-align: center; text-decoration: none;}
+#field_id-10:active, #field_id-21:active, #field_id-22:active, #field_id-23:active, #field_id29:active, #field_id30:active, #field_id31:active{transform: none; box-shadow: none;}
+.barra-wimp1{width: 619px; height: 30px; background: linear-gradient(to left, #c8c8cd00, #ffffff); display: flex; align-items: center; position: absolute; top: 439px; left: 7px; justify-content: center;}
+.texto-uno{font-family:'San Francisco Text', sans-serif; font-size: 15px; color: #9696a7; padding: 5px; display: flex; align-items: center; font-weight: bold; text-transform: uppercase; letter-spacing: 4px; justify-content: flex-start; font-weight: bold; background: linear-gradient(to left, #656565b5, #f2dff9); -webkit-background-clip: text; -webkit-text-fill-color: transparent; letter-spacing: 1px;}
+.texto-uno i{margin-right: 10px;}
+.barra-wimp2{width: 100%; height: 80px; background: linear-gradient(to bottom, #c8c8cd00, #ffffff); display: flex; align-items: center; position: absolute; top: 860px; justify-content: center;}
+.texto-dos{font-family:'San Francisco Text', sans-serif; font-size: 20px; color: #9696a7; padding: 5px; display: flex; align-items: center; font-weight: bold; text-transform: uppercase; letter-spacing: 4px; justify-content: flex-start; background: linear-gradient(to left, #656565b5, #f2dff9); -webkit-background-clip: text; -webkit-text-fill-color: transparent;}
+.texto-dos i{margin-right: 10px;}
+.barra-wimp3{width: 846px; height: 60px; background: linear-gradient(to top, #c8c8cd00, #ffffff); display: flex; align-items: center; position: absolute; bottom: 191px; justify-content: center;}
+.texto-tres{font-family:'San Francisco Text', sans-serif; font-size: 20px; color: #9696a7; padding: 5px; display: flex; align-items: center; font-weight: bold; text-transform: uppercase; letter-spacing: 4px; justify-content: flex-start; background: linear-gradient(to left, #656565b5, #f2dff9); -webkit-background-clip: text; -webkit-text-fill-color: transparent;}
+.texto-tres i{margin-right: 10px;}
+div#profile_field_32{display: flex; position: absolute; bottom: 0; right: 5px; margin: 10px;}
+div#profile_field_33{display: flex; position: absolute; bottom: 0; right: 5px; margin: 10px; z-index: 1;}
